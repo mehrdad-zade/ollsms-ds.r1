@@ -1,17 +1,23 @@
-# ollama + deepseek-r1
+# ollama + deepseek r1
 deepseek-r1 is a model that can be used offline. using ollama we interact with r1 model through chat or UI-experienced rag.
 
 ## Prerequisites
 
-- Python 3.8 or higher
-- Git (for cloning the repository)
+- Python 3.11.9: https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe
 - download ollama from: https://ollama.com/download
-
+- install Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+- pip
 
 ## Installation
 
+1.  Download the package
 
-1. Set up the virtual environment:
+```bash
+git clone git@github.com:mehrdad-zade/ollsms-ds.r1.git
+cd ollsms-ds.r1
+```
+
+2. Set up:
 
 **For Unix/Linux/Mac:**
 ```bash
@@ -21,7 +27,7 @@ chmod +x setup.sh
 
 **For Windows:**
 ```bash
-setup.bat
+.\setup.bat
 ```
 
 ## Run a chat experience
