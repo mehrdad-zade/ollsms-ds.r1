@@ -13,6 +13,9 @@ pip install --upgrade --force-reinstall ollama
 pip install --upgrade gradio
 pip install --upgrade langchain_community
 pip install --upgrade langchain_ollama 
+pip install pymupdf
+pip install --force-reinstall pymupdf
+pip install chromadb
 
 :: Run Ollama with DeepSeek-R1 model
 ollama run deepseek-r1
